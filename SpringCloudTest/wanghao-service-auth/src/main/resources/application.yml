@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: service-auth
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+#        server-addr: localhost:8841, localhost:8842, localhost:8843
